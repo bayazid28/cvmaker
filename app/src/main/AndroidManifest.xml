@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.java.cvmaker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cvmaker">
+        <activity android:name=".ShowTemplate"
+            android:parentActivityName=".Home"
+            />
+        <activity
+            android:name=".FAQScreen"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Template4"
+            android:parentActivityName=".ChooseTemplate" />
+        <activity
+            android:name=".Template3"
+            android:parentActivityName=".ChooseTemplate" />
+        <activity
+            android:name=".Template2"
+            android:parentActivityName=".ChooseTemplate" />
+        <activity
+            android:name=".Template1"
+            android:parentActivityName=".ChooseTemplate" />
+        <activity
+            android:name=".ChooseTemplate"
+            android:parentActivityName=".Cv" />
+        <activity
+            android:name=".Download"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Signature"
+            android:parentActivityName=".Cv" />
+        <activity
+            android:name=".Publication"
+            android:parentActivityName=".Cv" />
+        <activity
+            android:name=".Activities"
+            android:parentActivityName=".Cv" />
+        <activity
+            android:name=".Acheivement"
+            android:parentActivityName=".Cv" />
+        <activity
+            android:name=".Interest"
+            android:parentActivityName=".Cv" />
+        <activity
+            android:name=".Language"
+            android:parentActivityName=".Cv" />
+        <activity
+            android:name=".Project"
+            android:parentActivityName=".Cv" />
+        <activity
+            android:name=".Reference"
+            android:parentActivityName=".Cv" />
+        <activity
+            android:name=".Objective"
+            android:parentActivityName=".Cv" />
+        <activity
+            android:name=".skill"
+            android:parentActivityName=".Cv" />
+        <activity
+            android:name=".Experience"
+            android:parentActivityName=".Cv" />
+        <activity
+            android:name=".Education"
+            android:parentActivityName=".Cv" />
+        <activity
+            android:name=".Personal"
+            android:parentActivityName=".Cv" />
+        <activity
+            android:name=".Cv"
+            android:parentActivityName=".Home" />
+        <activity android:name=".Home" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

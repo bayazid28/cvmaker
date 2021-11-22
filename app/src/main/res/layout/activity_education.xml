@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Education">
+
+    <ScrollView
+        android:id="@+id/scview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/buttson2"
+                    android:layout_width="379dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:background="#fafce6"
+                    android:text="Education : 1 "
+                    android:textColor="@color/black"
+                    android:textSize="23sp" />
+
+                <TextView
+
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Course/Degree : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+                    android:id="@+id/coursename1"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/buttonff2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="College/University : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="100dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+                    android:id="@+id/versityname1"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/buttonss2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Grade : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Example : 3.45"
+                    android:textSize="22sp"
+                    android:id="@+id/grade1"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/buttodddn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Year : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:inputType="number"
+                    android:hint="Example : 2021"
+                    android:textSize="22sp"
+                    android:id="@+id/year1"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/education1"
+                    android:layout_width="136dp"
+                    android:layout_height="61dp"
+                    android:layout_marginTop="28dp"
+                    android:backgroundTint="#fafce6"
+                    android:text="Add "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="28dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#b3e6cc"
+                android:layout_gravity="center"
+                android:id="@+id/esave1"
+                android:layout_width="wrap_content"
+                android:layout_height="61dp"
+                android:text="Save" />
+
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:visibility="invisible"
+        android:id="@+id/education2layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/remove1"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_delete"
+                android:backgroundTint="#ff9999"
+                android:textSize="20sp" />
+
+            <TextView
+
+                android:id="@+id/buttson2j"
+                android:layout_width="377dp"
+                android:layout_height="wrap_content"
+                android:background="#fafce6"
+                android:text="Education : 2 "
+                android:textColor="@color/black"
+                android:textSize="23sp" />
+
+
+            <TextView
+
+                android:id="@+id/button2sc"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_marginTop="10dp"
+
+                android:backgroundTint="#fff"
+                android:text="Course/Degree : "
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="389dp"
+                android:layout_height="60dp"
+                android:hint="Enter Name"
+                android:textSize="22sp"
+                android:id="@+id/coursename2"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/buttdonff2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+
+                android:backgroundTint="#fff"
+                android:text="College/University : "
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="389dp"
+                android:layout_height="100dp"
+                android:hint="Enter Name"
+                android:textSize="22sp"
+                android:id="@+id/versityname2"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/bzuttonss2"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dp"
+
+                android:backgroundTint="#fff"
+                android:text="Grade : "
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="389dp"
+                android:layout_height="60dp"
+                android:hint="Example : 3.45"
+                android:textSize="22sp"
+                android:id="@+id/grade2"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/buttodqddn2"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dp"
+
+                android:backgroundTint="#fff"
+                android:text="Year : "
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="389dp"
+                android:layout_height="60dp"
+                android:inputType="number"
+                android:hint="Example : 2021"
+                android:textSize="22sp"
+                android:id="@+id/year2"
+
+
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/education2id"
+                    android:layout_width="136dp"
+                    android:layout_height="61dp"
+                    android:layout_marginTop="28dp"
+                    android:backgroundTint="#fafce6"
+                    android:text="Add "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+
+
+            </LinearLayout>
+            <Button
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="28dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#b3e6cc"
+                android:layout_gravity="center"
+                android:id="@+id/esave2"
+                android:layout_width="wrap_content"
+                android:layout_height="61dp"
+                android:text="Save" />
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:visibility="invisible"
+                android:id="@+id/education3layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:backgroundTint="#ff9999"
+                        android:id="@+id/remove2"
+                        android:layout_width="98dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/ic_delete"
+                        android:textSize="20sp" />
+                    <TextView
+
+                        android:id="@+id/buttson2jll"
+                        android:layout_width="379dp"
+                        android:layout_height="wrap_content"
+                        android:background="#fafce6"
+                        android:text="Education : 3 "
+                        android:textColor="@color/black"
+                        android:textSize="23sp" />
+
+                    <TextView
+
+                        android:id="@+id/button2scll1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="42dp"
+                        android:layout_marginTop="10dp"
+
+                        android:backgroundTint="#fff"
+                        android:text="Course/Degree : "
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="389dp"
+                        android:layout_height="60dp"
+                        android:hint="Enter Name"
+                        android:textSize="22sp"
+                        android:id="@+id/coursename3"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:id="@+id/buttdiionff2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+
+                        android:backgroundTint="#fff"
+                        android:text="College/University : "
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="389dp"
+                        android:layout_height="100dp"
+                        android:hint="Enter Name"
+                        android:textSize="22sp"
+                        android:id="@+id/versityname3"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:id="@+id/jjubzuttonss2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:layout_marginTop="10dp"
+
+                        android:backgroundTint="#fff"
+                        android:text="Grade : "
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="389dp"
+                        android:layout_height="60dp"
+                        android:hint="Example : 3.45"
+                        android:textSize="22sp"
+                        android:id="@+id/grade3"
+
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:id="@+id/butkktodqddn2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:layout_marginTop="10dp"
+
+                        android:backgroundTint="#fff"
+                        android:text="Year : "
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="389dp"
+                        android:layout_height="60dp"
+                        android:inputType="number"
+                        android:hint="Example : 2021"
+                        android:textSize="22sp"
+                        android:id="@+id/year3"
+
+
+
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/education3id"
+                            android:layout_width="136dp"
+                            android:layout_height="61dp"
+                            android:layout_marginTop="28dp"
+                            android:backgroundTint="#fafce6"
+                            android:text="Add "
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+
+
+
+                    </LinearLayout>
+                    <Button
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="28dp"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:backgroundTint="#b3e6cc"
+                        android:layout_gravity="center"
+                        android:id="@+id/esave3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="61dp"
+                        android:text="Save" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="invisible"
+                android:id="@+id/education4layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:backgroundTint="#ff9999"
+                        android:id="@+id/remove3"
+                        android:layout_width="98dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/ic_delete"
+                        android:textSize="20sp" />
+                    <TextView
+
+                        android:id="@+id/but4vctson2jll"
+                        android:layout_width="379dp"
+                        android:layout_height="wrap_content"
+                        android:background="#fafce6"
+                        android:text="Education : 4 "
+                        android:textColor="@color/black"
+                        android:textSize="23sp" />
+
+                    <TextView
+
+                        android:id="@+id/button2caw2scll1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="42dp"
+                        android:layout_marginTop="10dp"
+
+                        android:backgroundTint="#fff"
+                        android:text="Course/Degree : "
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="389dp"
+                        android:layout_height="60dp"
+                        android:hint="Enter Name"
+                        android:textSize="22sp"
+                        android:id="@+id/coursename4"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:id="@+id/but04tdiionff2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+
+                        android:backgroundTint="#fff"
+                        android:text="College/University : "
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="389dp"
+                        android:layout_height="100dp"
+                        android:hint="Enter Name"
+                        android:textSize="22sp"
+                        android:id="@+id/versityname4"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:id="@+id/jju40bzuttonss2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:layout_marginTop="10dp"
+
+                        android:backgroundTint="#fff"
+                        android:text="Grade : "
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="389dp"
+                        android:layout_height="60dp"
+                        android:hint="Example : 3.45"
+                        android:textSize="22sp"
+                        android:id="@+id/grade4"
+
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:id="@+id/butkkt50odqddn2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:layout_marginTop="10dp"
+
+                        android:backgroundTint="#fff"
+                        android:text="Year : "
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="389dp"
+                        android:layout_height="60dp"
+                        android:inputType="number"
+                        android:hint="Example : 2021"
+                        android:textSize="22sp"
+                        android:id="@+id/year4"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/bnuf60pofftttton2"
+                            android:layout_width="136dp"
+                            android:layout_height="61dp"
+                            android:layout_marginTop="28dp"
+                            android:backgroundTint="#fafce6"
+                            android:text="Add "
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+
+
+
+                    </LinearLayout>
+                    <Button
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="28dp"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:backgroundTint="#b3e6cc"
+                        android:layout_gravity="center"
+                        android:id="@+id/esave4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="61dp"
+                        android:text="Save" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+    </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

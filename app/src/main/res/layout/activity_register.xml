@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/l"
+    android:gravity="center"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="272dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="442dp"
+            android:layout_height="208dp"
+            android:layout_marginBottom="60dp"
+            android:src="@drawable/fst"
+
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Your Account"
+        android:textSize="25sp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:textSize="22sp"
+            android:hint="Name"
+            android:layout_width="355dp"
+            android:layout_height="60dp"
+            android:inputType="text"
+            android:id="@+id/csignupps"
+
+            />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:textSize="22sp"
+        android:layout_marginTop="15dp"
+        android:hint="Email"
+        android:layout_width="355dp"
+        android:layout_height="60dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/signupedt"
+
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:textSize="22sp"
+        android:hint="Password"
+        android:layout_marginTop="15dp"
+        android:layout_width="355dp"
+        android:layout_height="60dp"
+        android:inputType="textPassword"
+        android:id="@+id/signupps"
+        android:layout_marginBottom="24dp"
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="229dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#66cc99"
+        android:text="Register"
+        android:id="@+id/signupbtn"
+        android:textSize="25sp"
+        app:cornerRadius="180dp" />
+
+    <TextView
+        android:id="@+id/al"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Already Have Account ? Login "
+        android:textSize="21sp"
+
+        />
+    </LinearLayout>
+</LinearLayout>

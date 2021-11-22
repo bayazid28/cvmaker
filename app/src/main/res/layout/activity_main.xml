@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/w"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="371dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/fst"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/lgbtn"
+
+            android:layout_width="331dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#66cc99"
+            android:text="Login"
+            android:textSize="25sp"
+            app:cornerRadius="180dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sgnbtn"
+            android:layout_width="331dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#66cc99"
+            android:text="Register"
+            android:textSize="25sp"
+            app:cornerRadius="180dp" />
+
+    </LinearLayout>
+</LinearLayout>

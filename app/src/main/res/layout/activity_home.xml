@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background=" #ecf9f2"
+    tools:context=".Home">
+
+
+
+    <ViewFlipper
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/flipper"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints" />
+
+
+
+<LinearLayout
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="98dp"
+            android:layout_height="58dp"
+            android:src="@drawable/c" />
+
+        <Button
+            android:id="@+id/crbtn"
+            android:layout_width="297dp"
+            android:layout_height="61dp"
+            android:backgroundTint="#b3e6cc"
+            android:text="create resume"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="98dp"
+            android:layout_height="61dp"
+            android:src="@drawable/t" />
+
+        <Button
+            android:id="@+id/te"
+            android:layout_width="297dp"
+            android:layout_height="61dp"
+            android:backgroundTint="#b3e6cc"
+            android:text="Template"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="98dp"
+            android:layout_height="61dp"
+            android:src="@drawable/d" />
+
+        <Button
+            android:id="@+id/dd"
+            android:layout_width="297dp"
+            android:layout_height="61dp"
+            android:backgroundTint="#b3e6cc"
+            android:text="Downloads"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="98dp"
+            android:layout_height="61dp"
+            android:src="@drawable/i" />
+
+        <Button
+            android:id="@+id/fq"
+            android:layout_width="297dp"
+            android:layout_height="61dp"
+            android:backgroundTint="#b3e6cc"
+            android:text="faq"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

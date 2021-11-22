@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Experience">
+
+
+    <ScrollView
+        android:id="@+id/sw1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:background="#fafce6"
+                    android:text="Experience 1"
+                    android:textColor="@color/black"
+                    android:textSize="23sp" />
+
+                <TextView
+
+                    android:id="@+id/buttwson2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="28dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Company Name : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+                    android:id="@+id/companyname1"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/ssbuttonff2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Job Title : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="100dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+                    android:id="@+id/jobtitle1"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/buttonss2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Start date : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/sdate1"
+                    android:hint="Example : 01 jan, 2021"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/buttodddn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="End date : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/edate1"
+                    android:hint="Example : 30 Dec, 2021"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/busttodddn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Job details :(Max:50 Word) "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="150dp"
+                    android:hint="Write description about job"
+                    android:textSize="22sp"
+                    android:id="@+id/jobdetail1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#fafce6"
+
+                    android:id="@+id/expadd1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Add " />
+
+                <Button
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#b3e6cc"
+                    android:layout_gravity="center"
+                    android:id="@+id/exsave1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Save" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="invisible"
+                android:id="@+id/explayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/expremove1"
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ic_delete"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="#fafce6"
+                    android:text="Experience 2"
+                    android:textColor="@color/black"
+                    android:textSize="23sp" />
+
+                <TextView
+
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="28dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Company Name : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+                    android:id="@+id/companyname2"
+
+                    />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/buttonff2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Job Title : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="100dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+                    android:id="@+id/jobtitle2"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/aqdbuttonss2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Start date : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/sdate2"
+                    android:hint="Example : 01 jan, 2021"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/buttoddssdn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="End date : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/edate2"
+                    android:hint="Example : 30 Dec, 2021"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/bustswtodddn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Job details :(Max: 50 Word)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/jobdetail2"
+                    android:hint="Write description about job"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#fafce6"
+
+                    android:id="@+id/expadd2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Add " />
+
+                <Button
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#b3e6cc"
+                    android:layout_gravity="center"
+                    android:id="@+id/exsave2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Save" />
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="invisible"
+                android:id="@+id/exp3layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/expremove2"
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ic_delete"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="#fafce6"
+                    android:text="Experience 3"
+                    android:textColor="@color/black"
+                    android:textSize="23sp" />
+
+                <TextView
+
+                    android:id="@+id/butkkton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="28dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Company Name : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+                    android:id="@+id/companyname3"
+
+                    />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/biiuttonff2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Job Title : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="100dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+                    android:id="@+id/jobtitle3"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/aqdbuttttonss2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Start date : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/sdate3"
+                    android:hint="Example : 01 jan, 2021"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/bullttoddssdn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="End date : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/edate3"
+                    android:hint="Example : 30 Dec, 2021"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/bustsmmwtodddn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Job details :(Max : 50 Word) "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="150dp"
+                    android:hint="Write description about job"
+                    android:textSize="22sp"
+                    android:id="@+id/jobdetail3"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#fafce6"
+
+                    android:id="@+id/expadd3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Add " />
+
+                <Button
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#b3e6cc"
+                    android:layout_gravity="center"
+                    android:id="@+id/exsave3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Save" />
+
+            </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="invisible"
+                android:id="@+id/exp4layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/expremove3"
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ic_delete"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:background="#fafce6"
+                    android:text="Experience 4"
+                    android:textColor="@color/black"
+                    android:textSize="23sp" />
+
+                <TextView
+
+                    android:id="@+id/butt1qwson2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="28dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Company Name : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+                    android:id="@+id/companyname4"
+
+                    />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/ss2wbuttonff2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Job Title : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="100dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+                    android:id="@+id/jobtitle4"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/b3euttonss2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Start date : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/sdate4"
+                    android:hint="Example : 01 jan, 2021"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/butt4rodddn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="End date : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/edate4"
+                    android:hint="Example : 30 Dec, 2021"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/busttod5tddn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Job details :(Max:50 Word) "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="150dp"
+                    android:hint="Write description about job"
+                    android:textSize="22sp"
+                    android:id="@+id/jobdetail4"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#fafce6"
+
+                    android:id="@+id/bufff6ytttton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Add " />
+
+                <Button
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#b3e6cc"
+                    android:layout_gravity="center"
+                    android:id="@+id/exsave4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Save" />
+            </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

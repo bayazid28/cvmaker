@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "283908934244",
+    "project_id": "cvmaker-c04d1",
+    "storage_bucket": "cvmaker-c04d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283908934244:android:b2e7769cfb34762cb72d71",
+        "android_client_info": {
+          "package_name": "com.java.cvmaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283908934244-p8kfrmq1l0ijtv9ggi5l2k4bfe0tplpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMSi6SvNnZ-pTSuFXpfEobtaDhfB9POS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283908934244-p8kfrmq1l0ijtv9ggi5l2k4bfe0tplpp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

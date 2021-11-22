@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Interest">
+
+    <ScrollView
+        android:id="@+id/hsc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="28dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Hobby 1 : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+                    android:id="@+id/hby1"
+
+                    />
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#fafce6"
+
+                    android:id="@+id/hbadd1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Add " />
+
+                <Button
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#b3e6cc"
+                    android:layout_gravity="center"
+                    android:id="@+id/hsave1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Save" />
+
+            </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="invisible"
+                android:id="@+id/hblayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/hbremove1"
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ic_delete"
+                    android:textSize="20sp" />
+                <TextView
+
+                    android:id="@+id/but33kton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="28dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Hobby 2 : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+                    android:id="@+id/hby2"
+
+                    />
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#fafce6"
+
+                    android:id="@+id/hbadd2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Add " />
+
+                <Button
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#b3e6cc"
+                    android:layout_gravity="center"
+                    android:id="@+id/hsave2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Save" />
+
+            </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="invisible"
+                android:id="@+id/hblayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/hbremove2"
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ic_delete"
+                    android:textSize="20sp" />
+                <TextView
+
+                    android:id="@+id/butt99ron2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="28dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Hobby 3 : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+                    android:id="@+id/hby3"
+
+                    />
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#fafce6"
+
+                    android:id="@+id/hbadd3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Add " />
+
+                <Button
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#b3e6cc"
+                    android:layout_gravity="center"
+                    android:id="@+id/hsave3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Save" />
+
+            </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="invisible"
+                android:id="@+id/hblayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/hbremove3"
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ic_delete"
+                    android:textSize="20sp" />
+                <TextView
+
+                    android:id="@+id/bu9ovtton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="28dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Hobby 4 : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+                    android:id="@+id/hby4"
+
+                    />
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#fafce6"
+
+                    android:id="@+id/buffftttton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Add " />
+
+                <Button
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#b3e6cc"
+                    android:layout_gravity="center"
+                    android:id="@+id/hsave4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Save" />
+
+            </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

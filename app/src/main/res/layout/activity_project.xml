@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Project">
+
+    <ScrollView
+        android:id="@+id/scw1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:background="#fafce6"
+                    android:text="Project 1"
+                    android:textSize="23sp" />
+                <TextView
+
+                    android:id="@+id/buttottn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="28dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Project Name : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+                    android:id="@+id/projectname1"
+
+                    />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/buttott44nff2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Description :(Max: 50 Words) "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="130dp"
+                    android:hint="Enter details"
+                    android:textSize="22sp"
+                    android:id="@+id/projectdes1"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#fafce6"
+
+                    android:id="@+id/pradd1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Add " />
+
+                <Button
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#b3e6cc"
+                    android:layout_gravity="center"
+                    android:id="@+id/psave1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Save" />
+
+
+            </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="invisible"
+                android:id="@+id/prlayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/prremove1"
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ic_delete"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:background="#fafce6"
+                    android:text="Project 2"
+                    android:textSize="23sp" />
+
+                <TextView
+
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="28dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Project Name : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+                    android:id="@+id/projectname2"
+
+                    />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/butf4tonff2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Description :(Max: 50 Words) "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="130dp"
+                    android:hint="Enter details"
+                    android:textSize="22sp"
+                    android:id="@+id/projectdes2"
+
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#fafce6"
+
+                    android:id="@+id/pradd2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Add " />
+
+                <Button
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#b3e6cc"
+                    android:layout_gravity="center"
+                    android:id="@+id/psave2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Save" />
+
+            </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="invisible"
+                android:id="@+id/prlayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/prremove2"
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ic_delete"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:background="#fafce6"
+                    android:text="Project 3"
+                    android:textSize="23sp" />
+                <TextView
+
+                    android:id="@+id/buttott4hn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="28dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Project Name : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+                    android:id="@+id/projectname3"
+
+                    />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/buttonff2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Description :(Max: 50 Words) "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="130dp"
+                    android:hint="Enter details"
+                    android:textSize="22sp"
+                    android:id="@+id/projectdes3"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#fafce6"
+
+                    android:id="@+id/buffftttp9ton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Add " />
+
+                <Button
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#b3e6cc"
+                    android:layout_gravity="center"
+                    android:id="@+id/psave3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Save" />
+
+            </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

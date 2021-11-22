@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".Cv">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textViewd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:text="Note : Please click on manage sections for add more sections in your CV.." />
+
+    <Button
+        android:id="@+id/vcv"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="8dp"
+        android:text="View MyCV"
+        android:textSize="20sp" />
+
+    <TextView
+        android:textColor="#f25050"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:text="Sections" />
+    <Button
+        android:drawableLeft="@drawable/setting"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:backgroundTint="#ff9999"
+        android:layout_gravity="center"
+        android:id="@+id/msbtn"
+        android:layout_width="297dp"
+        android:layout_height="61dp"
+        android:text="Manage Sections" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:drawableLeft="@drawable/pdtl"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#b3e6cc"
+                android:layout_gravity="center"
+                android:id="@+id/pdbtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Personal Details" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:drawableLeft="@drawable/edu"
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#b3e6cc"
+                android:layout_gravity="center"
+                android:id="@+id/edbtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Education" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:drawableLeft="@drawable/skill"
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#b3e6cc"
+                android:layout_gravity="center"
+                android:id="@+id/skbtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Skills" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:drawableLeft="@drawable/obj"
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#b3e6cc"
+                android:layout_gravity="center"
+                android:id="@+id/obtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Objective" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <Button
+                android:drawableLeft="@drawable/exp"
+                android:enabled="false"
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#ecf9f2"
+                android:layout_gravity="center"
+                android:id="@+id/exbtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Experience" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:drawableLeft="@drawable/ref"
+                android:enabled="false"
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#ecf9f2"
+                android:layout_gravity="center"
+                android:id="@+id/rfbtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Reference" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:drawableLeft="@drawable/project"
+                android:enabled="false"
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#ecf9f2"
+                android:layout_gravity="center"
+                android:id="@+id/ptbtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Project" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:drawableLeft="@drawable/ln"
+                android:enabled="false"
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#ecf9f2"
+                android:layout_gravity="center"
+                android:id="@+id/lnbtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Language" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:drawableLeft="@drawable/in"
+                android:enabled="false"
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#ecf9f2"
+                android:layout_gravity="center"
+                android:id="@+id/ibtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Interest" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:drawableLeft="@drawable/acm"
+                android:enabled="false"
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#ecf9f2"
+                android:layout_gravity="center"
+                android:id="@+id/abtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Acheivement" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:drawableLeft="@drawable/act"
+                android:enabled="false"
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#ecf9f2"
+                android:layout_gravity="center"
+                android:id="@+id/asbtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Activities" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:drawableLeft="@drawable/pb"
+                android:enabled="false"
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#ecf9f2"
+                android:layout_gravity="center"
+                android:id="@+id/psbtns"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Publications" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:drawableLeft="@drawable/sg"
+                android:enabled="false"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#ecf9f2"
+                android:layout_gravity="center"
+                android:id="@+id/cgbl"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Signature" />
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

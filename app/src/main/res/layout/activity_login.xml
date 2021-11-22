@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="401dp"
+        android:layout_height="265dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="442dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="80dp"
+            android:src="@drawable/fst"
+
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Your Account"
+        android:textSize="25sp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:textSize="22sp"
+        android:layout_marginTop="25dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_width="355dp"
+        android:layout_height="60dp"
+        android:id="@+id/lgedt"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:textSize="22sp"
+        android:hint="Password"
+        android:id="@+id/lgps"
+        android:inputType="textPassword"
+        android:layout_width="355dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="14dp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"
+        android:layout_marginLeft="65dp"
+        android:textSize="22sp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/lgbtn"
+        android:layout_width="248dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#66cc99"
+        android:text="Login"
+        android:textSize="25sp"
+        app:cornerRadius="180dp" />
+
+        <TextView
+            android:id="@+id/rgt"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:text="Don't Have an Account ? Register"
+            android:textSize="21sp" />
+    </LinearLayout>
+</LinearLayout>
