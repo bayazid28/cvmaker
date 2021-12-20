@@ -7,8 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+
 public class ChooseTemplate extends AppCompatActivity {
+
     ImageView cv1,cv2,cv3,cv4;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +27,7 @@ public class ChooseTemplate extends AppCompatActivity {
         cv1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Intent i = new Intent(ChooseTemplate.this,Template1.class);
                 startActivity(i);
             }
