@@ -36,7 +36,7 @@
             <LinearLayout
                 android:weightSum="100"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:orientation="horizontal"
                 >
 
@@ -49,10 +49,11 @@
 
 
                 <ImageView
+                    android:src="@drawable/skb"
                     android:id="@+id/imageView"
-                    android:layout_width="120dp"
-                    android:layout_height="144dp"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     />
 
             </LinearLayout>
 
@@ -69,28 +70,28 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Address"
-                        android:textSize="25sp" />
+                        android:textSize="23sp" />
 
                     <TextView
                         android:id="@+id/mobileno"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Mobile No"
-                        android:textSize="25sp" />
+                        android:textSize="23sp" />
 
                     <TextView
                         android:id="@+id/email"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Email"
-                        android:textSize="25sp" />
+                        android:textSize="23sp" />
 
                     <TextView
                         android:id="@+id/website"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="website"
-                        android:textSize="25sp" />
+                        android:textSize="23sp" />
 
 
 
@@ -98,494 +99,6 @@
             </LinearLayout>
 
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:text="Objective"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/objective"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:text="Objective"
-                    android:textSize="25sp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:weightSum="100"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_weight="50"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="Educational Background"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/degree1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="MSC"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/versity1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="UITS"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/group1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="Grade"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/grade1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="Year"
-                        android:textSize="25sp" />
-
-                    <TextView
-                        android:id="@+id/degree2"
-                        android:layout_marginTop="20dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="BSC"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/versity2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="UITS"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/group2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="Grade"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/grade2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="Year"
-                        android:textSize="25sp" />
-
-                    <TextView
-                        android:id="@+id/degree3"
-                        android:layout_marginTop="20dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="HSC"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/versity3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="UITS"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/group3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="Grade"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/grade3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="Year"
-                        android:textSize="25sp" />
-
-                    <TextView
-                        android:id="@+id/degree4"
-                        android:layout_marginTop="20dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="SSC"
-                        android:textSize="25sp" />
-
-                    <TextView
-                        android:id="@+id/versity4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="UITS"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/group4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="Grade"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/grade4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="Year"
-                        android:textSize="25sp" />
-
-                    <TextView
-                        android:layout_marginTop="15dp"
-                        android:textStyle="bold"
-                        android:layout_width="361dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="Project"
-                        android:textSize="25sp" />
-
-                    <TextView
-                        android:id="@+id/pn1"
-                        android:layout_marginTop="15dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="project name1"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/pd1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="p description"
-                        android:textSize="25sp" />
-
-                    <TextView
-                        android:id="@+id/pn2"
-                        android:layout_marginTop="15dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="project name2"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/pd2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="p description"
-                        android:textSize="25sp" />
-
-                    <TextView
-                        android:id="@+id/pn3"
-                        android:layout_marginTop="15dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="project name3"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/pd3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="p description"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:layout_marginTop="15dp"
-                        android:textStyle="bold"
-                        android:layout_width="361dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="Language"
-                        android:textSize="25sp" />
-
-                    <TextView
-                        android:id="@+id/l1"
-                        android:layout_marginTop="15dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="language1"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/l2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="language2"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/l3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="language3"
-                        android:textSize="25sp" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:textStyle="bold"
-                        android:layout_width="361dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="skills and proficience"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/skilln1"
-                        android:layout_marginTop="15dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="skill name1"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/skilld1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="skill description"
-                        android:textSize="25sp" />
-
-                    <TextView
-                        android:id="@+id/skilln2"
-                        android:layout_marginTop="15dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="skill name2"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/skilld2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="skill description"
-                        android:textSize="25sp" />
-
-                    <TextView
-                        android:id="@+id/skilln3"
-                        android:layout_marginTop="15dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="skill name3"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/skilld3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="skill description"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/skilln4"
-                        android:layout_marginTop="15dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="skill name4"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/skilld4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="skill description"
-                        android:textSize="25sp" />
-
-                    <TextView
-                        android:textStyle="bold"
-                        android:layout_marginTop="15dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="Experience"
-                        android:textSize="25sp" />
-
-                    <TextView
-                        android:id="@+id/cn1"
-                        android:layout_marginTop="15dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="company name1"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/jt1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="job title1"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/sd1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="sdate1"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/ed1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="edate1"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/jb1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="job des1"
-                        android:textSize="25sp" />
-
-                    <TextView
-                        android:id="@+id/cn2"
-                        android:layout_marginTop="15dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="company name2"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/jt2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="job title2"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/sd2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="sdate2"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/ed2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="edate2"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/jb2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="job des2"
-                        android:textSize="25sp" />
-
-                    <TextView
-                        android:id="@+id/cn3"
-                        android:layout_marginTop="15dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="company name3"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/jt3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="job title3"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/sd3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="sdate3"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/ed3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="edate3"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/jb3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="job des3"
-                        android:textSize="25sp" />
-
-                    <TextView
-                        android:id="@+id/cn4"
-                        android:layout_marginTop="15dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="company name4"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/jt4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="job title4"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/sd4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="sdate4"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/ed4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="edate4"
-                        android:textSize="25sp" />
-                    <TextView
-                        android:id="@+id/jb4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="job des4"
-                        android:textSize="25sp" />
-
-
-                </LinearLayout>
-
-            </LinearLayout>
 
 
         </LinearLayout>

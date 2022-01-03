@@ -1,27 +1,27 @@
 package com.java.cvmaker;
 
 import android.os.Bundle;
-import android.util.Log;
 
-import androidx.annotation.Nullable;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import com.google.firebase.firestore.DocumentChange;
-import com.google.firebase.firestore.EventListener;
-import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.FirebaseFirestoreException;
-import com.google.firebase.firestore.QuerySnapshot;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.ValueEventListener;
+
+import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 
 public class Template1 extends AppCompatActivity {
 
-  RecyclerView recyclerView;
-  ArrayList<Resume> resumeArrayList;
-  MyAdapter myAdapter;
-  FirebaseFirestore db;
+    SwipeRefreshLayout swipeRefreshLayout;
+    RecyclerView recyclerView;
+    RVAdapter adapter;
+    DResume dResume;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,34 +29,38 @@ public class Template1 extends AppCompatActivity {
         setContentView(R.layout.activity_template1);
         getSupportActionBar().setTitle("Template 1");
 
-        recyclerView=findViewById(R.id.rcview);
+        swipeRefreshLayout=findViewById(R.id.swip);
+        recyclerView=findViewById(R.id.rv);
         recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        LinearLayoutManager manager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(manager);
+        adapter=new RVAdapter(this);
+        recyclerView.setAdapter(adapter);
+        dResume=new DResume();
+        loaddata();
 
-        db = FirebaseFirestore.getInstance();
-        resumeArrayList=new ArrayList<Resume>();
-        myAdapter = new MyAdapter(Template1.this,resumeArrayList);
-
-        EventListener();
 
     }
-    private void EventListener(){
-        db.collection("Sections 1")
-                .addSnapshotListener(new EventListener<QuerySnapshot>() {
-                    @Override
-                    public void onEvent(@Nullable  QuerySnapshot value, @Nullable  FirebaseFirestoreException error) {
-                        if(error!=null){
-                           Log.e("Firestore error",error.getMessage());
-                           return;
-                        }
-                        for(DocumentChange dc : value.getDocumentChanges()){
 
-                            if(dc.getType() == DocumentChange.Type.ADDED){
-                                resumeArrayList.add(dc.getDocument().toObject(Resume.class));
-                            }
-                            myAdapter.notifyDataSetChanged();
-                        }
-                    }
-                });
+    private void loaddata() {
+        dResume.get().addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull @NotNull DataSnapshot snapshot) {
+                ArrayList<Resume> resumes = new ArrayList<>();
+                for(DataSnapshot data:snapshot.getChildren()){
+                    Resume resume = data.getValue(Resume.class);
+                    resumes.add(resume);
+                }
+                adapter.setItems(resumes);
+                adapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onCancelled(@NonNull @NotNull DatabaseError error) {
+
+            }
+        });
     }
+
+
 }

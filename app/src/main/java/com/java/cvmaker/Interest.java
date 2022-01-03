@@ -1,8 +1,5 @@
 package com.java.cvmaker;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -12,6 +9,9 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -64,7 +64,7 @@ public class Interest extends AppCompatActivity {
 
 
 
-                db.collection("Sections 9").document("Language Data 1").set(interestdata)
+                db.collection("Sections 9").document("Interest Data 1").set(interestdata)
                         .addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void unused) {
@@ -92,7 +92,7 @@ public class Interest extends AppCompatActivity {
 
 
 
-                db.collection("Sections 9").document("Language Data 2").set(interestdata)
+                db.collection("Sections 9").document("Interest Data 2").set(interestdata)
                         .addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void unused) {
@@ -120,7 +120,7 @@ public class Interest extends AppCompatActivity {
 
 
 
-                db.collection("Sections 9").document("Language Data 3").set(interestdata)
+                db.collection("Sections 9").document("Interest Data 3").set(interestdata)
                         .addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void unused) {
@@ -148,7 +148,7 @@ public class Interest extends AppCompatActivity {
 
 
 
-                db.collection("Sections 9").document("Language Data 4").set(interestdata)
+                db.collection("Sections 9").document("Interest Data 4").set(interestdata)
                         .addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void unused) {
